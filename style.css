@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*First section design*/
+.diet-part{
+    background-color: whitesmoke;
+    height: 90vh;
+    padding-top: 5%;
+    padding-right: 10%;
+
+   
+}
+
+.flexible-container{
+    display: flex;
+       
+}
+.diet-part h1{
+    font-size: 50px;
+}
+
+
+.orange-color{
+    color: rgb(250, 168, 16);
+}
+
+.half-width{
+    width: 40%;
+    padding-left: 10%;
+}
+.diet-part img{
+    width: 70%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    position: relative;
+    top: 30px;
+    
+}
+
+/*First section design End here*/
+
+/*About section design start here*/
+.about-part{
+    background-image:url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    padding-right: 10%;
+    
+}
+.about-part h1{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.about-part img{
+        width: 60%;
+}
+/*About section design End here*/
+
+/*Recipes section design start here*/
+
+.my-recipes{
+    background-color: honeydew;
+    margin-bottom: 100px;
+}
+.my-recipes h1{
+    font-size: 30px;
+}
+.recipe_details {
+    
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 20%;
+    padding-bottom: 8%;
+    width: 45%;
+    
+    
+}
+.one-third{
+    width: 22%;
+    margin-left: 7%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+.one-third h2{
+    text-align: center;
+
+} 
+
+.one-third p{
+    text-align: justify;
+
+} 
+.one-third img{
+    width: 80%;
+}
+
+/*Recipes section design End here*/
+
+
+.food-network{
+    background-color: black;
+    height: 40vh;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+}
+.food-network h1{
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+.gray-color{
+    color: gray;
+}
