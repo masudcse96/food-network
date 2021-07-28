@@ -6,6 +6,32 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/*--Bonus part for extra marks*/
+
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2em;
+    background: #0f1b31;;
+    
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin: 0.5em;
+    font-size: 1.1rem;
+}
+.navbar a:hover{
+    color: #fff582;
+}
+/*--Bonus part for extra marks*/
+
+
+
 /*First section design*/
 .diet-part{
     background-color: whitesmoke;
@@ -92,7 +118,7 @@ body{
     width: 22%;
     margin-left: 7%;
     box-shadow: 10px 10px 40px gray;
-    padding: 15px;
+    padding: 3%;
     border-radius: 15px;
     
 }
@@ -114,7 +140,7 @@ body{
 
 .food-network{
     background-color: black;
-    height: 40vh;
+    height: 35vh;
     color: white;
     text-align: center;
     padding-top: 5%;
